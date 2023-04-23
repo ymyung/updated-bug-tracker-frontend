@@ -1,8 +1,8 @@
-import React from 'react'
+import * as React from 'react';
 
 import "./Profile.scss"
 
-const Profile = () => {
+const Profile: React.FC = () => {
 
     // render profile
     return (
